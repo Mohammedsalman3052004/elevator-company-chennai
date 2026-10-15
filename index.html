@@ -22,12 +22,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="preload" as="image" href="./icons/hero-banner.webp">
+    <link rel="preload" as="image" href="./Images/Banner.png">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.png" type="image/png">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which elevator company should I choose in Chennai?", "acceptedAnswer": {"@type": "Answer", "text": "Compare providers based on technical suitability, safety documentation, installation capabilities, product specifications and after-sales service. Request a site assessment before making your decision."}}, {"@type": "Question", "name": "What is the cost of installing a home elevator in Chennai?", "acceptedAnswer": {"@type": "Answer", "text": "The price depends on the number of floors, rated capacity, drive technology, cabin finishes, shaft availability and civil work. A site evaluation is the best way to obtain an accurate quotation."}}, {"@type": "Question", "name": "Which lift is suitable for an independent house?", "acceptedAnswer": {"@type": "Answer", "text": "The right lift depends on available space, floor count, power supply, accessibility needs and building design. A technical assessment can identify suitable options."}}, {"@type": "Question", "name": "How often should an elevator be maintained?", "acceptedAnswer": {"@type": "Answer", "text": "Maintenance frequency should follow the manufacturer’s guidance, applicable requirements, actual usage and the agreed service contract."}}]}</script>
+    <script
+        type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which elevator company should I choose in Chennai?", "acceptedAnswer": {"@type": "Answer", "text": "Compare providers based on technical suitability, safety documentation, installation capabilities, product specifications and after-sales service. Request a site assessment before making your decision."}}, {"@type": "Question", "name": "What is the cost of installing a home elevator in Chennai?", "acceptedAnswer": {"@type": "Answer", "text": "The price depends on the number of floors, rated capacity, drive technology, cabin finishes, shaft availability and civil work. A site evaluation is the best way to obtain an accurate quotation."}}, {"@type": "Question", "name": "Which lift is suitable for an independent house?", "acceptedAnswer": {"@type": "Answer", "text": "The right lift depends on available space, floor count, power supply, accessibility needs and building design. A technical assessment can identify suitable options."}}, {"@type": "Question", "name": "How often should an elevator be maintained?", "acceptedAnswer": {"@type": "Answer", "text": "Maintenance frequency should follow the manufacturer’s guidance, applicable requirements, actual usage and the agreed service contract."}}]}</script>
 </head>
 
 <body class="js-off">
@@ -35,14 +36,15 @@
     <!-- NAV -->
     <header class="nav" id="nav" data-s="top">
         <button class="burger" id="burger" aria-label="Open menu"><i></i><i></i><i></i></button>
-        <a href="#top" class="logo" aria-label="Teknix Elevators"><img src="./icons/logo.png" alt="Teknix Elevators"></a>
+        <a href="#top" class="logo" aria-label="Teknix Elevators"><img src="./Images/logo.png"
+                alt="Teknix Elevators"></a>
         <a href="#contact" class="nc open-form"><span>CONTACT</span><span>↗</span></a>
     </header>
     <div class="drawer" id="drawer">
         <div class="bd" data-close></div>
         <aside class="pn">
             <div class="hd"><button class="cls" data-close aria-label="Close menu"><i></i><i></i></button><img
-                    src="./icons/footer-logo.png" alt="Teknix" height="40"></div>
+                    src="./Images/logo.png" alt="Teknix" height="40"></div>
             <ul>
                 <li><a href="#top" data-close>Home</a></li>
                 <li><a href="#about" data-close>About</a></li>
@@ -58,11 +60,19 @@
     <main id="top">
         <!-- HERO -->
         <section class="hero">
-            <div class="bg"><img src="./icons/hero-banner.webp" alt="Teknix elevators and escalators in a modern building"></div>
+            <div class="bg">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="./Images/mobi-banner.png">
+                    <img src="./Images/Banner.png" alt="Teknix elevators and escalators in a modern building">
+                </picture>
+            </div>
             <div class="in">
                 <div class="eyebrow rv">Teknix Elevators</div>
-                <h1 class="ln"><span class="mask"><span style="--i:0">Top Elevator</span></span><span class="mask"><span style="--i:1">Company</span></span><span class="mask"><span style="--i:2">in Chennai</span></span></h1>
-                <p class="rv" style="--d:.3s">Teknix Elevators offers elevator solutions for residential and commercial applications.</p>
+                <h1 class="ln"><span class="mask"><span style="--i:0">Top Elevator</span></span><span class="mask"><span
+                            style="--i:1">Company</span></span><span class="mask"><span style="--i:2">in
+                            Chennai</span></span></h1>
+                <p class="rv" style="--d:.3s">Teknix Elevators offers elevator solutions for residential and commercial
+                    applications.</p>
                 <div class="cta rv" style="--d:.45s">
                     <button class="btn blk open-form"><span class="l">Enquire Now</span><span
                             class="ar l">→</span></button>
@@ -76,11 +86,18 @@
         <section class="sec welcome" id="about">
             <div class="copy">
                 <div class="eyebrow rv">About</div>
-                <h2 class="t ln"><span class="mask"><span style="--i:0">Teknix</span></span><span class="mask"><span style="--i:1">Elevators</span></span></h2>
-                <p class="rv">Chennai’s growing residential and commercial developments require reliable elevator solutions that support safe, convenient movement between floors. From villas along ECR to apartment communities in OMR and commercial buildings in Guindy, choosing the right elevator depends on the building layout, passenger capacity, available space and long-term maintenance requirements.</p>
+                <h2 class="t ln"><span class="mask"><span style="--i:0">Teknix</span></span><span class="mask"><span
+                            style="--i:1">Elevators</span></span></h2>
+                <p class="rv">Chennai’s growing residential and commercial developments require reliable elevator
+                    solutions that support safe, convenient movement between floors. From villas along ECR to apartment
+                    communities in OMR and commercial buildings in Guindy, choosing the right elevator depends on the
+                    building layout, passenger capacity, available space and long-term maintenance requirements.</p>
             </div>
             <div class="aside rv">
-                <p>Teknix Elevators offers elevator solutions for residential and commercial applications. Whether you are planning a new construction project, installing a home lift or evaluating options for an existing building, our product range can be explored according to your project’s technical and functional needs.</p>
+                <p>Teknix Elevators offers elevator solutions for residential and commercial applications. Whether you
+                    are planning a new construction project, installing a home lift or evaluating options for an
+                    existing building, our product range can be explored according to your project’s technical and
+                    functional needs.</p>
                 <button class="btn blk open-form"><span class="l">Enquire Now</span><span class="ar l">→</span></button>
             </div>
         </section>
@@ -90,20 +107,26 @@
             <div class="shead">
                 <div>
                     <div class="eyebrow rv">How to Choose</div>
-                    <h2 class="t md ln"><span class="mask"><span style="--i:0">How to Choose the Best</span></span><span class="mask"><span style="--i:1">Elevator Company</span></span><span class="mask"><span style="--i:2">in Chennai</span></span></h2>
+                    <h2 class="t md ln"><span class="mask"><span style="--i:0">How to Choose the Best</span></span><span
+                            class="mask"><span style="--i:1">Elevator Company</span></span><span class="mask"><span
+                                style="--i:2">in Chennai</span></span></h2>
                 </div>
-                <p class="lede rv">Selecting an elevator company involves more than comparing installation costs. Building owners and developers should evaluate product specifications, safety provisions, installation requirements and after-sales service before making a decision.</p>
+                <p class="lede rv">Selecting an elevator company involves more than comparing installation costs.
+                    Building owners and developers should evaluate product specifications, safety provisions,
+                    installation requirements and after-sales service before making a decision.</p>
             </div>
             <div class="sgrid cards">
                 <article class="svc card rv">
                     <span class="num">01</span>
                     <h3>Safety and compliance</h3>
-                    <p class="sd">Check applicable safety requirements, installation standards and commissioning documentation.</p>
+                    <p class="sd">Check applicable safety requirements, installation standards and commissioning
+                        documentation.</p>
                 </article>
                 <article class="svc card rv" style="--d:0.1s">
                     <span class="num">02</span>
                     <h3>Building compatibility</h3>
-                    <p class="sd">Assess shaft dimensions, pit depth, overhead clearance and structural requirements.</p>
+                    <p class="sd">Assess shaft dimensions, pit depth, overhead clearance and structural requirements.
+                    </p>
                 </article>
                 <article class="svc card rv" style="--d:0.2s">
                     <span class="num">03</span>
@@ -133,19 +156,57 @@
             <div class="head">
                 <div>
                     <div class="eyebrow rv">Solutions</div>
-                    <h2 class="t md ln"><span class="mask"><span style="--i:0">Elevator Solutions for</span></span><span class="mask"><span style="--i:1">Different Buildings</span></span><span class="mask"><span style="--i:2">in Chennai</span></span></h2>
+                    <h2 class="t md ln"><span class="mask"><span style="--i:0">Elevator Solutions for</span></span><span
+                            class="mask"><span style="--i:1">Different Buildings</span></span><span class="mask"><span
+                                style="--i:2">in Chennai</span></span></h2>
                 </div>
-                <div class="ctl rv"><button class="vprev" aria-label="Previous">←</button><button class="vnext" aria-label="Next">→</button></div>
+                <div class="ctl rv"><button class="vprev" aria-label="Previous">←</button><button class="vnext"
+                        aria-label="Next">→</button></div>
             </div>
             <div class="pgrid rv">
-                <div class="pimg"><img class="vimg" src="./icons/sol-1.webp" alt="Home Elevators and Villa Lifts" loading="lazy">
-                    <div class="tag">Home Elevators and Villa Lifts</div>
+                <div class="pimg"><img class="vimg" src="./Images/image1.png" alt="Home Elevators and Villa Lifts"
+                        loading="lazy">
+                    <div class="tag">Why ConsiderHome Elevators and Villa Lifts</div>
                 </div>
                 <div class="pinfo">
-                    <ul class="tabs" role="tablist"><li role="tab" tabindex="0" data-i="0" data-img="./icons/sol-1.webp" class="on">Home Elevators and Villa Lifts</li><li role="tab" tabindex="0" data-i="1" data-img="./icons/sol-2.webp">Residential Apartment Elevators</li><li role="tab" tabindex="0" data-i="2" data-img="./icons/sol-3.webp">Commercial Elevators</li><li role="tab" tabindex="0" data-i="3" data-img="./icons/sol-4.webp">Hospital and Service Elevators</li></ul>
+                    <ul class="tabs" role="tablist">
+                        <li role="tab" tabindex="0" data-i="0" data-img="./Images/image1.png" class="on">Home Elevators
+                            and Villa Lifts</li>
+                        <li role="tab" tabindex="0" data-i="1" data-img="./Images/image2.png">Residential Apartment
+                            Elevators</li>
+                        <li role="tab" tabindex="0" data-i="2" data-img="./Images/image3.png">Commercial Elevators</li>
+                        <li role="tab" tabindex="0" data-i="3" data-img="./Images/image4.png">Hospital and Service
+                            Elevators</li>
+                    </ul>
                     <div class="pdesc">
-                        <div class="pstack"><div class="pd on"><span class="pp">Home elevators improve accessibility and convenience in independent houses, duplex homes and multi-storey villas. When selecting a residential lift, consider the available installation space, number of floors, power supply, cabin dimensions and household requirements.</span><span class="pp">Teknix’s Villa Matek model can be evaluated for suitable residential applications. Confirm its available configurations, installation dimensions and technical specifications before finalizing your choice.</span></div><div class="pd"><span class="pp">Apartment buildings require elevators designed around daily passenger traffic, building height and occupancy. Developers should assess passenger capacity, door dimensions, travel speed and expected peak-hour demand when planning a lift installation.</span><span class="pp">For residential developments in areas such as OMR, Porur and Pallavaram, selecting the right configuration early can help coordinate elevator requirements with the building’s architectural and electrical plans.</span></div><div class="pd"><span class="pp">Office buildings, retail complexes and other commercial properties need elevators suited to their operating schedules and passenger volumes. Important considerations include travel distance, traffic patterns, rated capacity and accessibility.</span><span class="pp">Teknix’s Vertix range can be assessed for relevant commercial applications based on the model’s confirmed specifications and the project’s requirements.</span></div><div class="pd"><span class="pp">Hospitals and service facilities may require elevators that accommodate stretchers, medical equipment, supplies or goods. Cabin dimensions, door clearances, load capacity and leveling performance must be selected according to the intended application and applicable requirements.</span></div></div>
-                        <button class="btn blk open-form"><span class="l">Enquire Now</span><span class="ar l">→</span></button>
+                        <div class="pstack">
+                            <div class="pd on"><span class="pp">Home elevators improve accessibility and convenience in
+                                    independent houses, duplex homes and multi-storey villas. When selecting a
+                                    residential lift, consider the available installation space, number of floors, power
+                                    supply, cabin dimensions and household requirements.</span><span class="pp">Teknix’s
+                                    Villa Matek model can be evaluated for suitable residential applications. Confirm
+                                    its available configurations, installation dimensions and technical specifications
+                                    before finalizing your choice.</span></div>
+                            <div class="pd"><span class="pp">Apartment buildings require elevators designed around daily
+                                    passenger traffic, building height and occupancy. Developers should assess passenger
+                                    capacity, door dimensions, travel speed and expected peak-hour demand when planning
+                                    a lift installation.</span><span class="pp">For residential developments in areas
+                                    such as OMR, Porur and Pallavaram, selecting the right configuration early can help
+                                    coordinate elevator requirements with the building’s architectural and electrical
+                                    plans.</span></div>
+                            <div class="pd"><span class="pp">Office buildings, retail complexes and other commercial
+                                    properties need elevators suited to their operating schedules and passenger volumes.
+                                    Important considerations include travel distance, traffic patterns, rated capacity
+                                    and accessibility.</span><span class="pp">Teknix’s Vertix range can be assessed for
+                                    relevant commercial applications based on the model’s confirmed specifications and
+                                    the project’s requirements.</span></div>
+                            <div class="pd"><span class="pp">Hospitals and service facilities may require elevators that
+                                    accommodate stretchers, medical equipment, supplies or goods. Cabin dimensions, door
+                                    clearances, load capacity and leveling performance must be selected according to the
+                                    intended application and applicable requirements.</span></div>
+                        </div>
+                        <button class="btn blk open-form"><span class="l">Enquire Now</span><span
+                                class="ar l">→</span></button>
                     </div>
                 </div>
             </div>
@@ -156,33 +217,59 @@
             <div class="shead">
                 <div>
                     <div class="eyebrow rv">Services in Chennai</div>
-                    <h2 class="t md ln"><span class="mask"><span style="--i:0">Installation</span></span><span class="mask"><span style="--i:1">&amp; Maintenance</span></span></h2>
+                    <h2 class="t md ln"><span class="mask"><span style="--i:0">Installation</span></span><span
+                            class="mask"><span style="--i:1">&amp; Maintenance</span></span></h2>
                 </div>
             </div>
             <div class="sgrid two">
                 <article class="svc txt rv">
-                    <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path
+                            d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                    </svg>
                     <h3>Elevator Installation Services in Chennai</h3>
-                    <p class="sd">A successful elevator installation begins with a technical evaluation of the building. The process typically involves reviewing the site, finalizing the elevator configuration, coordinating civil and electrical provisions, completing installation and testing, and arranging handover documentation.</p>
-                    <p class="sd">The installation scope and timeline depend on site readiness, building conditions and project complexity. Discuss these requirements with the elevator provider before confirming the project schedule.</p>
+                    <p class="sd">A successful elevator installation begins with a technical evaluation of the building.
+                        The process typically involves reviewing the site, finalizing the elevator configuration,
+                        coordinating civil and electrical provisions, completing installation and testing, and arranging
+                        handover documentation.</p>
+                    <p class="sd">The installation scope and timeline depend on site readiness, building conditions and
+                        project complexity. Discuss these requirements with the elevator provider before confirming the
+                        project schedule.</p>
                 </article>
                 <article class="svc txt rv" style="--d:.1s">
-                    <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+                    <svg class="si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path
+                            d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
+                        <circle cx="12" cy="12" r="3" />
+                    </svg>
                     <h3>Lift Maintenance and Modernization in Chennai</h3>
-                    <p class="sd">Regular elevator maintenance helps identify wear, address developing faults and support reliable operation. A suitable maintenance plan should follow the manufacturer’s recommendations, applicable requirements, usage levels and service agreement.</p>
-                    <p class="sd">For older elevators, modernization may be worth considering when controls are outdated, breakdowns recur or ride performance deteriorates. Depending on the technical assessment, upgrades may involve controllers, door systems, selected drive components, lighting and cabin interiors.</p>
+                    <p class="sd">Regular elevator maintenance helps identify wear, address developing faults and
+                        support reliable operation. A suitable maintenance plan should follow the manufacturer’s
+                        recommendations, applicable requirements, usage levels and service agreement.</p>
+                    <p class="sd">For older elevators, modernization may be worth considering when controls are
+                        outdated, breakdowns recur or ride performance deteriorates. Depending on the technical
+                        assessment, upgrades may involve controllers, door systems, selected drive components, lighting
+                        and cabin interiors.</p>
                 </article>
             </div>
-            <div class="fcta rv"><button class="btn wht open-form"><span class="l">Enquire Now</span><span class="ar l">→</span></button></div>
+            <div class="fcta rv"><button class="btn wht open-form"><span class="l">Enquire Now</span><span
+                        class="ar l">→</span></button></div>
         </section>
 
         <!-- WHY TEKNIX -->
         <section class="sec corp" id="why">
             <div class="txt">
                 <div class="eyebrow rv">Why Teknix</div>
-                <h2 class="t ln"><span class="mask"><span style="--i:0">Why Consider</span></span><span class="mask"><span style="--i:1">Teknix Elevators?</span></span></h2>
-                <p class="rv">Choosing an elevator partner is a long-term decision that affects building usability and maintenance planning. When evaluating Teknix Elevators, review the available models, technical documentation, installation scope, warranty conditions and after-sales service arrangements.</p>
-                <p class="rv">Models such as Villa Matek, Vertix, Greentek and Optima should be compared according to their confirmed specifications and suitability for your building rather than product names alone.</p>
+                <h2 class="t ln"><span class="mask"><span style="--i:0">Why Consider</span></span><span
+                        class="mask"><span style="--i:1">Teknix Elevators?</span></span></h2>
+                <p class="rv">Choosing an elevator partner is a long-term decision that affects building usability and
+                    maintenance planning. When evaluating Teknix Elevators, review the available models, technical
+                    documentation, installation scope, warranty conditions and after-sales service arrangements.</p>
+                <p class="rv">Models such as Villa Matek, Vertix, Greentek and Optima should be compared according to
+                    their confirmed specifications and suitability for your building rather than product names alone.
+                </p>
                 <div class="stats models rv">
                     <div><b>Villa Matek</b></div>
                     <div><b>Vertix</b></div>
@@ -190,18 +277,49 @@
                     <div><b>Optima</b></div>
                 </div>
             </div>
-            <div class="im ri" data-ri><img src="./icons/corp-profile.webp" alt="Teknix home elevator" loading="lazy"></div>
+            <div class="im ri" data-ri><img src="./Images/why.png" alt="Teknix home elevator" loading="lazy">
+            </div>
         </section>
 
+
+
         <!-- FAQ -->
-        <section class="sec" id="faq">
-            <div class="eyebrow rv">FAQ</div>
-            <h2 class="t md ln"><span class="mask"><span style="--i:0">Frequently Asked Questions</span></span><span class="mask"><span style="--i:1">About Elevators in Chennai</span></span></h2>
+        <section class="sec faqsec" id="faq">
+            <div class="fhead">
+                <div class="eyebrow rv">FAQ</div>
+                <h2 class="t md ln"><span class="mask"><span style="--i:0">Frequently Asked</span></span><span
+                        class="mask"><span style="--i:1">Questions About</span></span><span class="mask"><span
+                            style="--i:2">Elevators in Chennai</span></span></h2>
+            </div>
             <div class="faq">
-                <details class="rv" open><summary>Which elevator company should I choose in Chennai?</summary><div class="a">Compare providers based on technical suitability, safety documentation, installation capabilities, product specifications and after-sales service. Request a site assessment before making your decision.</div></details>
-                <details class="rv"><summary>What is the cost of installing a home elevator in Chennai?</summary><div class="a">The price depends on the number of floors, rated capacity, drive technology, cabin finishes, shaft availability and civil work. A site evaluation is the best way to obtain an accurate quotation.</div></details>
-                <details class="rv"><summary>Which lift is suitable for an independent house?</summary><div class="a">The right lift depends on available space, floor count, power supply, accessibility needs and building design. A technical assessment can identify suitable options.</div></details>
-                <details class="rv"><summary>How often should an elevator be maintained?</summary><div class="a">Maintenance frequency should follow the manufacturer’s guidance, applicable requirements, actual usage and the agreed service contract.</div></details>
+                <div class="faq">
+                    <details class="rv" open>
+                        <summary>Which elevator company should I choose in Chennai?</summary>
+                        <div class="a">Compare providers based on technical suitability, safety documentation,
+                            installation
+                            capabilities, product specifications and after-sales service. Request a site assessment
+                            before
+                            making your decision.</div>
+                    </details>
+                    <details class="rv">
+                        <summary>What is the cost of installing a home elevator in Chennai?</summary>
+                        <div class="a">The price depends on the number of floors, rated capacity, drive technology,
+                            cabin
+                            finishes, shaft availability and civil work. A site evaluation is the best way to obtain an
+                            accurate quotation.</div>
+                    </details>
+                    <details class="rv">
+                        <summary>Which lift is suitable for an independent house?</summary>
+                        <div class="a">The right lift depends on available space, floor count, power supply,
+                            accessibility
+                            needs and building design. A technical assessment can identify suitable options.</div>
+                    </details>
+                    <details class="rv">
+                        <summary>How often should an elevator be maintained?</summary>
+                        <div class="a">Maintenance frequency should follow the manufacturer’s guidance, applicable
+                            requirements, actual usage and the agreed service contract.</div>
+                    </details>
+                </div>
             </div>
         </section>
 
@@ -209,10 +327,16 @@
         <section class="contact" id="contact">
             <div class="cinfo">
                 <div class="eyebrow rv" style="color:rgba(190,177,153,.75)">Contact</div>
-                <h2 class="t md ln" style="color:var(--cream)"><span class="mask"><span style="--i:0">Discuss Your Chennai</span></span><span class="mask"><span style="--i:1">Elevator Project</span></span><span class="mask"><span style="--i:2">with Teknix</span></span></h2>
-                <p class="cp rv">Planning a home lift, apartment elevator or commercial installation? Contact Teknix Elevators to discuss your building layout, passenger requirements and available elevator options.</p>
-                <p class="cp strong rv">Enquire with Teknix Elevators for a project-specific elevator proposal in Chennai.</p>
-                <address class="rv">3354, KR Road, Tata Silk Farm,<br>Banashankari Stage II, Bengaluru,<br>Karnataka 560070</address>
+                <h2 class="t md ln" style="color:var(--cream)"><span class="mask"><span style="--i:0">Discuss Your
+                            Chennai</span></span><span class="mask"><span style="--i:1">Elevator
+                            Project</span></span><span class="mask"><span style="--i:2">with Teknix</span></span></h2>
+                <p class="cp rv">Planning a home lift, apartment elevator or commercial installation? Contact Teknix
+                    Elevators to discuss your building layout, passenger requirements and available elevator options.
+                </p>
+                <p class="cp strong rv">Enquire with Teknix Elevators for a project-specific elevator proposal in
+                    Chennai.</p>
+                <address class="rv">3354, KR Road, Tata Silk Farm,<br>Banashankari Stage II, Bengaluru,<br>Karnataka
+                    560070</address>
                 <div class="rv">
                     <a class="row" href="mailto:sales@teknixelevators.com">Email: sales@teknixelevators.com</a>
                     <a class="row" href="tel:+919148788011">Phone: +91 91487 88011</a>
@@ -226,7 +350,7 @@
     <!-- FOOTER -->
     <footer class="foot">
         <div class="top">
-            <h2>For everything that matters.</h2><img src="./icons/footer-logo.png" alt="Teknix Elevators">
+            <h2>For everything that matters.</h2><img src="./Images/logo.png" alt="Teknix Elevators">
         </div>
         <div class="bot"><span>Copyright © 2026 Teknix Elevators. All rights reserved.</span><a
                 href="https://teknixelevators.com/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>
